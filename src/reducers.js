@@ -11,13 +11,18 @@ export const reducers = (state, action) => {
       return {
         ...state,
         user: action.user,
-      }
-      case "SET_TOKEN":
-        return {
-          ...state,
-          user: action.token,
-        }
-      default:
-        return state; 
+      };
+    case "SET_TOKEN":
+      return {
+        ...state,
+        user: action.token,
+      };
+    case "SET_PLAYLISTS":
+      return {
+        ...state,
+        user: action.playlists,
+      };
+    default:
+      return state;
   }
 };
