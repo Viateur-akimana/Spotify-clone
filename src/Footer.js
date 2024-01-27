@@ -14,14 +14,14 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-left"></div>
-      <div className="center">
+      <div className="footer_center">
         <ShuffleIcon className="footer_green" />
         <SkipPreviousIcon className="footer_icon" />
         <PlayCircleOutlineIcon fontSize="large" className="footer_icon" />
         <SkipNextIcon className="footer_icon" />
         <RepeatIcon className="footer_green" />
       </div>
-      <div className="right">
+      <div className="footer_right">
         <Grid container spacing={2}>
           <Grid item>
             <PlaylistPlayIcon />
